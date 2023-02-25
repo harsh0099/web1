@@ -1,0 +1,71 @@
+.card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+  
+  .container2{
+    margin-top: 37px;
+  }
+  
+  .container1{
+    width: 94%;
+      margin-top: 33px;
+      margin-left: 43px;
+      padding: 20px;
+      
+  }
+  
+  .btn-primary, .btn-secondary{
+    margin-top: 20px;
+  }
+
+  .jthTY.toggled {
+    width: 80px;
+    min-width: 80px;
+    /* height: 1091px; */
+    height: 3462px;
+}
+
+.jthTY{
+  height: 3462px;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.hero {
+  background: url(./images/hero-bg.svg) top center no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  background: url(./images/footer.svg) top center no-repeat;
+  background-size: cover;
+}
+
+.cta {
+  background: linear-gradient(rgba(2,2,2,.7),rgba(0,0,0,.7)),url(https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) fixed center center;
+}
+
+.sid1{
+  position: fixed;
+}
+
+.a23{
+  position: fixed;
+}
+
+
